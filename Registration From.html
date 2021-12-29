@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--favicon-->
+        <link rel="icon" href="tt2.jpg" type="image/jpeg">
+        <!--favicon-->
+        <b>Course Registration Form</b>
+        <title>Course Registration Form</title>
+    </head>
+    <body bgcolor="pink">
+        <h1>Fill the Form Correctly!</h1>
+        <hr>
+        <p>Below is the form for course Registration for your upcoming semester</p>
+        <hr>
+        <ol type="i"> <b>Match the criteria to fill the form</b>
+            <li>Planning for Masters</li>
+            <li>Planning for placement</li>
+            <li>Planning for Business</li>
+         </ol>
+         <hr>
+         <p><mark><ins>Main Form</ins></mark></p>
+         <hr>
+         <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="fname">Name:</label>
+                <input type="text" name="first_name" placeholder="Enter first Name" autofocus id="fname">
+                <input type="text" name="Middle_name" placeholder="Enter Middle Name">
+                <input type="text" name="Last_name" placeholder="Enter Last Name">
+                <br>
+                <label>Age:</label>
+                <input type="number" min="17" max="21">
+                <br>
+                <label>Date Of Birth:</label>
+                <input type="date">
+                <br>
+                <label>E-mail:</label>
+                <input type="email" maxlength="20">
+                <br>
+                <label>Contact:</label>
+                <input type="number" maxlength="10">
+                <br>
+                <label>Address:</label>
+                <input type="text" maxlength="1001">
+               </fieldset>
+                <fieldset>
+                    <legend>Academic Info:</legend>
+                    <label>Degree:</label>
+                    <form>
+                        <select>
+                        <optgroup label="Engineering">
+                            <input type="text" list="search1">
+                        <datalist id="search1">
+                            <option >B.Tech with CSE</option>
+                            <option >B.Tech with ECE</option>
+                            <option >B.Tech with IT</option>
+                            <option >B.Tech with AI</option>
+                            <option>B.Tech with ML</option>
+                            <option >B.Tech with DATA SCIENCE</option>
+                            <option >B.Tech with CSE CORE</option>
+                            </datalist>
+                        </optgroup>
+                    </form>
+                        <br>
+                             <label>Optional:</label>
+                        <select>
+                            <option value="Optional">Information Management</option>
+                            <option value="Optional">Human Assist Devices</option>
+                            <option value="Optional">Raspberry IP</option>
+                        </select>
+                        <br>
+                        Section: <input type="text" list="searchS">
+                        <datalist id="searchS">
+                            <option >A1</option>
+                            <option >B1</option>
+                            <option >C1</option>
+                            <option >D1</option>
+                            <option >E1</option>
+                            <option >F1</option>
+                            <option >G1</option>
+                        </datalist>
+                     </fieldset>
+                     <fieldset>
+                         <legend>Student Digital Roll:</legend>
+                         <label>Registration Number:</label>
+                         <input type="text" placeholder="Enter 15 digit Roll">
+                         <br>
+                         <label>SSR Number:</label>
+                         <input type="text" placeholder="Enter 7 digit SSR">
+                         <br>
+                         <label>Aadhar Number:</label>
+                         <input type="text" placeholder="Enter Aadhar Number">
+                         <br>
+                         <label>Pan Number:</label>
+                         <input type="text" placeholder="Enter Pan Number">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Internship Details</legend>
+                        <label>Comapny Name:</label>
+                         <input type="text" list="search2">
+                        <datalist id="search2">
+                            <option >Brillio</option>
+                            <option >Byjus</option>
+                            <option >Microsoft</option>
+                            <option >Dell</option>
+                            <option>Linkedin</option>
+                            <option >Google</option>
+                            <option >Netflix</option>
+                            </datalist>
+                            <br>
+                            <label>Salary:</label>
+                         <input type="text" list="search3">
+                        <datalist id="search3">
+                            <option >Below 5 Lakhs</option>
+                            <option >Above 5 Lakhs</option>
+                            <option >Between 10-15 Lakhs</option>
+                            <option >Between 16-20 Lakhs</option>
+                            <option >Between 20-25 Lakhs</option>
+                            <option >Above 26 Lakhs</option>
+                            <option >No Stipend/Salary</option>
+                            </datalist>
+                            <br>
+                             <label>Job Role</label>
+                        <select>
+                            <option value="Role">Technician</option>
+                            <option value="Role">Software Intern</option>
+                            <option value="Role">Trainee</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Comment</legend>
+                        <textarea rows="10" cols="135"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Choose anyone</legend>
+                        <P>Planning For:</P>
+                        <input type="radio" name="placement" value="Placement">Placement
+                        <br>
+                        <input type="radio" name="placement" value="Masters">Masters
+                        <br>
+                        <input type="radio" name="placement" value="Family Business">Family Business
+                        <br>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Skills</legend>
+                        <label>Skills:</label>
+                        <br>
+                        <input type="checkbox" name="C++"> C++
+                        <br>
+                        <input type="checkbox" name="C"> C
+                        <br>
+                        <input type="checkbox" name="Python">Python
+                        <br>
+                        <input type="checkbox" name="My SQL"> My SQL
+                        <br>
+                        <input type="checkbox" name="HTML"> HTML
+                        <br>
+                        <input type="checkbox" name="CSS"> CSS
+                        <br>
+                        <input type="checkbox" name="Jungo"> Jungo
+                        <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Connection Links</legend>
+                       
+                        <a href="https://www.linkedin.com/in/saket-kumar-baranwal-6789a8192" target="_blank"> Linkedin:Saket Kumar Baranwal</a>
+                        <br>
+                        <a href="mailto:Baranwal7saket@gmail.com?subject=Regarding Job">baranwal7saket@gmail.com</a></li>
+                    </fieldset>
+                    <br>
+                    <div>
+                        Reset:
+                        <input type="reset">
+                    </div>
+                    <br>
+                    <div>
+                        Submit:-
+                        <input type="submit" value="Submit">
+                    </div>
+           
+        
+    </body>
+</html>
